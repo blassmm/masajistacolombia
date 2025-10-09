@@ -1,0 +1,9 @@
+1. Repo cfg
+	-git init
+	-git remote add origin https://github.com/blassmm/masajistacolombia.git
+	-git branch -M main
+	-git add .
+	-git commit -m "main"
+	-git push origin main
+	-git switch -c dev
+	-git push -u origin dev
