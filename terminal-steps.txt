@@ -7,3 +7,13 @@
 	-git push origin main
 	-git switch -c dev
 	-git push -u origin dev
+2. Next
+    -npx create-next-app@latest .
+    -src folder & TS & Tailwind & App router
+
+3. Structure
+    -src/app/components
+        Header - Main - Footer
+           --->  sections (Folder with sections for SPA)
+	-src/app/contacto/page.tsx
+		---> Ruta de contacto (ruta "/contact")
