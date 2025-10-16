@@ -25,7 +25,7 @@ function Header() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-full">
                 <Link href="/" className="flex items-center gap-2">
                     <span className={`font-display text-2xl font-semibold ${scrolled ? 'text-primary-dark' : 'text-primary'
-                        }`}>Sandra</span>
+                        }`}>Sandra Acosta</span>
                     <span className={`text-sm font-light ${scrolled ? 'text-gray-600' : 'text-white'
                         }`}>Masajista Holística</span>
                 </Link>
