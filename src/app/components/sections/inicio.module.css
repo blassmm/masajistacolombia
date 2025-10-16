@@ -1,0 +1,33 @@
+.textShadowLg {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.textShadowSm {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.heroContent {
+  transition: all 1s ease-out;
+}
+
+.heroContent.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.heroContent.notLoaded {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.scrollIndicator {
+  transition: opacity 1s ease-out;
+}
+
+.scrollIndicator.loaded {
+  opacity: 1;
+}
+
+.scrollIndicator.notLoaded {
+  opacity: 0;
+}
